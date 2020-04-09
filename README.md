@@ -24,10 +24,9 @@ You can also learn more from the example notebooks provided in the `examples_and
 
 ## The data
 
-Data provided on the platform can be found in the `data` folder in your platform homespace. This folder contains three further folders:
+Data provided on the platform can be found in the `datasets` folder in your platform homespace. This folder contains two further folders:
 
-* `covid19-response-blob`: contains Met Office weather forecast data
-* `covid19-ancillary-data`: a local mirror of `covid19-response-blob`, provided for the sake of improved performance.
+* `covid19-ancillary-data`: contains Met Office weather forecast data.
 * `share`: this directory can be read and written by all researchers. It is intended for sharing data and research between one-another.
 
-More detailed information about the weather data provided is available in the data README at `data/covid19-response-blob/README.md`.
+More detailed information about the weather data provided is available in the data README at `datasets/covid19-ancillary-data/README_data.md`.
