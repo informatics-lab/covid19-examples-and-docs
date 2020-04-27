@@ -1,9 +1,9 @@
-name: pangeo-LunchBytes_intake-esm
+name: covid19-dev
 channels:
   - conda-forge
   - anaconda
 dependencies:
-  - pangeo-notebook
+  - pangeo-notebook # contains dask, distributed, jupyter
   - xarray
   - intake-xarray
   - nb_black
@@ -11,14 +11,14 @@ dependencies:
   - gcsfs
   - zarr
   - intake
-  # regridding
-  - esmpy=7.1.0
-  - xesmf
+  - cftime
+  - iris
+  - pandas
   # vis
+  - bokeh
   - matplotlib
   - cartopy # mapping
+  - h5netcdf
+  - azure-storage-blob
   - pip:
-    - git+https://github.com/bradyrx/climpred.git
-    - git+https://github.com/NCAR/intake-esm.git
-    - git+https://github.com/jbusecke/cmip6_preprocessing.git
     - git+https://github.com/mathause/regionmask.git
