@@ -19,6 +19,6 @@ dependencies:
   - matplotlib
   - cartopy # mapping
   - h5netcdf
-  - azure-storage-blob
   - pip:
     - git+https://github.com/mathause/regionmask.git
+    - azure-storage-blob
