@@ -11,16 +11,16 @@ USA:
   base: https://metdatasa.blob.core.windows.net/covid19-response/shapefiles/USA
   name: US_COUNTY_POP
   from_geopandas_args:
-    names: 
-    abbrevs:
+    names: NAME
+    abbrevs: FIPS
 
 Vietnam:
   keywords: [vietnam]
   base: https://metdatasa.blob.core.windows.net/covid19-response/shapefiles/Vietnam
   name: gadm36_Vietnam_2
   from_geopandas_args:
-    names: 
-    abbrevs:
+    names: VARNAME_2
+    abbrevs: construct
     
 
 Ugenda:
@@ -28,8 +28,8 @@ Ugenda:
   base: https://metdatasa.blob.core.windows.net/covid19-response/shapefiles/Uganda
   name: gadm36_Uganda_2
   from_geopandas_args:
-    names: 
-    abbrevs:
+    names: NAME_2
+    abbrevs: construct
     
 
 Italy:
@@ -37,5 +37,5 @@ Italy:
   base: https://metdatasa.blob.core.windows.net/covid19-response/shapefiles/Italy
   name: gadm36_ITA_2
   from_geopandas_args:
-    names: 
-    abbrevs:
+    names: NAME_2
+    abbrevs: construct
