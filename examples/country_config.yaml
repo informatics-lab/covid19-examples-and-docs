@@ -1,7 +1,41 @@
 UK:
-  keywords: [United Kingdom, England]  # not politically correct
+  keywords: [United Kingdom, England, uk, england]  # not politically correct
   base: https://metdatasa.blob.core.windows.net/covid19-response/shapefiles/England
   name: Counties_and_Unitary_Authorities_April_2019_Boundaries_EW_BUC
   from_geopandas_args:
     names: ctyua19nm
     abbrevs: ctyua19cd
+
+USA:
+  keywords: [United States, usa, united states]
+  base: https://metdatasa.blob.core.windows.net/covid19-response/shapefiles/USA
+  name: US_COUNTY_POP
+  from_geopandas_args:
+    names: 
+    abbrevs:
+
+Vietnam:
+  keywords: [vietnam]
+  base: https://metdatasa.blob.core.windows.net/covid19-response/shapefiles/Vietnam
+  name: gadm36_Vietnam_2
+  from_geopandas_args:
+    names: 
+    abbrevs:
+    
+
+Ugenda:
+  keywords: [uganda]
+  base: https://metdatasa.blob.core.windows.net/covid19-response/shapefiles/Uganda
+  name: gadm36_Uganda_2
+  from_geopandas_args:
+    names: 
+    abbrevs:
+    
+
+Italy:
+  keywords: [italy]
+  base: https://metdatasa.blob.core.windows.net/covid19-response/shapefiles/Italy
+  name: gadm36_ITA_2
+  from_geopandas_args:
+    names: 
+    abbrevs:
