@@ -1,10 +1,20 @@
-UK:
-  keywords: [United Kingdom, England, uk, england]  # not politically correct
+England:
+  keywords: [england]
   base: https://metdatasa.blob.core.windows.net/covid19-response/shapefiles/England
   name: Counties_and_Unitary_Authorities_April_2019_Boundaries_EW_BUC
   from_geopandas_args:
     names: ctyua19nm
     abbrevs: ctyua19cd
+
+
+UK:
+  keywords: [United Kingdom, uk]
+  base: https://metdatasa.blob.core.windows.net/covid19-response/shapefiles/UK
+  name: UK_covid_reporting_regions
+  from_geopandas_args:
+    names: name
+    abbrevs: code
+    
 
 USA:
   keywords: [United States, usa, united states]
