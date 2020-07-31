@@ -13,8 +13,10 @@ We are grateful to Microsoft Azure, The Environmental Futures and Big Data Impac
 This platform is for participants of the Environment Intelligence CDT Grand Challenges 2020. The challenges are:
 1. Improvements and inequalities in air quality during the COVID-19 pandemic.
 2. Predicting daily average air concentration of pollen grains.
-3. Quantifying and communicating uncertainty in dispersion forecasts of radioactive material
-4. Quantifying and communicating uncertainty in volcanic ash forecasts
+3. Quantifying and communicating uncertainty in dispersion forecasts of radioactive material.
+4. Quantifying and communicating uncertainty in volcanic ash forecasts.
+
+In depth brief for each of the challenges can be found in the `ChallengeBriefs` folder.
 
 The Grand Challenges 2020 event aims to:
 - To promote an inter-disciplinary approach to using Data Science and AI to find solutions to environmental challenges.
