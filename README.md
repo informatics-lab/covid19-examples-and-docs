@@ -1,4 +1,6 @@
-# The Met Office Informatics Lab COVID-19 Response Platform
+![EICDTLogo](examples/EILogo.png)
+
+# Grand Challenges 2020
 
 This platform is for COVID-19 researchers to explore relationships between COVID-19 and environmental factors. [For more information see our blog post](https://medium.com/informatics-lab/met-office-and-partners-offer-data-and-platform-for-covid-19-researchers-83848ac55f5f).
 
@@ -6,9 +8,21 @@ We are grateful to Microsoft Azure, The Environmental Futures and Big Data Impac
 
 ![Sponsors](examples/sponsors.png)
 
+## Overview
+
+This platform is for participants of the Environment Intelligence CDT Grand Challenges 2020. The challenges are:
+1. Improvements and inequalities in air quality during the COVID-19 pandemic.
+2. Predicting daily average air concentration of pollen grains.
+3. Quantifying and communicating uncertainty in dispersion forecasts of radioactive material
+4. Quantifying and communicating uncertainty in volcanic ash forecasts
+
+The Grand Challenges 2020 event aims to:
+- To promote an inter-disciplinary approach to using Data Science and AI to find solutions to environmental challenges.
+- To provide an opportunity for PhD students to work together using an integrated data-computational platform.
+
 ## Updates
 
-Check here for regular updates on the platform, such as the provision of new datasets. 
+Check here for regular updates on the platform, such as the provision of new datasets.
 
 
 ## Quick Start
@@ -24,9 +38,15 @@ You can also learn more from the example notebooks provided in the `examples_and
 
 ## The data
 
-Data provided on the platform can be found in the `datasets` folder in your platform homespace. This folder contains two further folders:
+Data provided on the platform can be found at `/data`. This folder contains four further folders:
 
-* `covid19-ancillary-data`: contains Met Office weather forecast data.
+* `met-office`: Contains Met Office Data.
 * `share`: this directory can be read and written by all researchers. It is intended for sharing data and research between one-another.
 
-More detailed information about the weather data provided is available in the data README at `datasets/covid19-ancillary-data/README_data.md`.
+The `share` folder contains the `challenges` folder where all of the data for the four challenges can be found. The four challenge folder are then found at:
+* `/data/share/challenges/AQ_Covid`for challenge 1.
+* `/data/share/challenges/Pollen` for challenge 2.
+* `/data/share/challenges/Fukushima` for challenge 3.
+* `/data/share/challenges/VolcanicAsh` for challenge 4.
+
+Each of the folders then contains a `README.txt` (or `PollenSites.txt` for challenge 2) that details the data contained in the folder.  

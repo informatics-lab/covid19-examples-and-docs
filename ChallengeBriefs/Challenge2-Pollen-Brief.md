@@ -1,0 +1,10 @@
+# Challenge 2: Predicting daily average air concentration of pollen grains
+
+An estimated 10 million people in the UK suffer from hay fever, with a significant effect on quality of life. It is therefore important to be able to predict periods of high pollen to ensure preventative measures can be taken.  
+
+The concentration of pollen in the atmosphere is dependent on (i) when the plant is ready to emit the pollen and (ii) the length of time the pollen remains aloft in the atmosphere. The first of these relates to the pollen 'season' which varies yearly and is often modelled according to the sum of temperatures above a threshold in the year. The latter is dependent on meteorological conditions, for example if it is raining the pollen is washed out of the atmosphere.
+
+This project aims to build a simple statistical model to relate the meteorological conditions (and potentially day of the year) to the observed pollen concentrations. Hourly weather variables of temperature, relative humidity, windspeed and rainfall are available for 2011-2019, alongside observed bi-hourly pollen concentrations for the same period.
+
+# Background Reading
+[Met Office Pollen](https://www.metoffice.gov.uk/weather/warnings-and-advice/seasonal-advice/health-wellbeing/pollen/could-pollen-research-offer-hope-to-hay-fever-sufferers (and pages linked under 'Related Pages'))
