@@ -4,7 +4,7 @@
 
 **Welcome to the UKRI EI CDT Grand Challenge 2020 Data and Computational Platform!** 
 
-We are grateful to Microsoft Azure, The Environmental Futures and Big Data Impact Lab and the EU European Regional Development Fund for helping make this possible.
+We are grateful to Microsoft Azure and the Met Office for helping make this possible.
 
 ![Sponsors](examples/sponsors.png)
 
